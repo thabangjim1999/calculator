@@ -1,0 +1,78 @@
+th{
+    text-align:right;
+    justify-content: right;
+    font-size: 15px;
+    padding:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+th img{
+    width: 90px;
+    float: left;
+}
+
+tr {
+    height: 13.8vh;
+    background-color: #4e494d;
+}
+td {
+    width:25vw;
+    border:1px solid #4e494d;
+    
+}
+
+table{
+    color:#ffffff;
+    text-align: center;
+    border-collapse: collapse;
+    font: normal 30px arial, helvetica, sans-serif; 
+    font-weight: lighter;
+    font-size: medium;
+  
+    
+   
+}
+
+#inputBox{
+    background-color: #b4d688;
+    text-align: right;
+    width: 80%;
+    font-size: 2em;
+    padding:20px;
+    border: #b4d688;
+    border-radius: 10px;
+    color:#000000;
+
+
+}
+
+.digitButton{
+    background-color: rgb(102, 102, 101);
+ 
+}
+.operatorButton{
+    background-color: goldenrod;
+}
+.acButton{
+    background-color: rgb(255, 6, 6);
+}
+.equalstoButton{
+    background-color: rgba(158, 158, 158, 0.808);
+    font-weight: bolder;
+}
+.digitButton:hover{
+    background-color: #525151;
+    color: rgb(255, 255, 255);
+
+}
+.equalstoButton:hover{
+    background-color: #3cff008a;
+}
+.acButton:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    color: red;
+}
+.operatorButton:hover{
+   background-color: rgb(255, 183, 0);
+
+}
